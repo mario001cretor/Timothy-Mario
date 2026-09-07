@@ -1,0 +1,33 @@
+body {background-color:rgba(235, 239, 238, 0.961);}
+h1,h2    {color: tomato;}
+p    {color: black;}
+a    {color: tomato;}
+a:hover {color: rgb(30, 0, 255);}
+h3    {color:tomato;}
+ h1:hover {color: rgb(30, 0, 255);}
+h2:hover {color: rgb(30, 0, 255);}
+p:hover {color: rgb(30, 0, 255);}
+a:visited {color: purple;}
+a:active {color: red;}
+a:link {color: rgb(9, 9, 241);}
+a:focus {color: greenyellow}
+<!-- Add more styles as needed --/
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px 7px;
+}
+table, th, td {
+    border: 1px solid rgb(3, 0, 0);
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: rgb(248, 85, 85);
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
